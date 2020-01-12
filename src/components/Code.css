@@ -1,10 +1,40 @@
 .tab-item a {
     border-bottom-color: #222629 !important;
     color: #61892F !important;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .tab-item:hover a, .tab-item.active {
     border-bottom-color: #61892F !important;
     color: #222629 !important;
     background: #61892f26;
+}
+
+.loading::after {
+    border: .1rem solid #61892F;
+    border-radius: 50%;
+    border-right-color: transparent;
+    border-top-color: transparent;
+}
+
+.tab {
+    position: sticky;
+    background: white;
+    top: 0px;
+}
+
+.tile {
+    box-shadow: 0 4px 8px 0 #6B6E70;
+    transition: .3s;
+    padding: 1em;
+    margin-top: 3%;
+    border-radius: 3px;
+    background: #fff;
+    border: 1px solid #6B6E70;
+    overflow: hidden;
+    animation: 0.5s linear 0s 1 opaticize;
+}
+
+.tile h4 {
+    font-family: 'Roboto Mono', monospace;
 }

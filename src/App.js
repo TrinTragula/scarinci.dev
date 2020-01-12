@@ -32,14 +32,14 @@ export default class App extends React.Component {
         <HorizontalLine />
         <div className="container">
           <div className="columns header">
-            <div className="column col-2 col-xs-1"></div>
+            <div className="column col-2 hide-xs"></div>
             <div className="column col-1 col-xs-1 back-arrow" style={{ cursor: this.state.currentPage === 'home' ? 'default' : 'pointer' }} onClick={() => this.setState({ currentPage: "home" })}>
-              <img src="icons/back.svg" style={{ width: "30%", display: this.state.currentPage === 'home' ? 'none' : 'inline' }} alt="Back arrow" />
+              <img src="icons/back.svg" style={{ height: "30px", display: this.state.currentPage === 'home' ? 'none' : 'inline' }} alt="Back arrow" />
             </div>
-            <div className="column col-6 col-xs-8">
+            <div className="column col-6 col-xs-10">
               {this.renderPage()}
             </div>
-            <div className="column col-3 col-xs-2"></div>
+            <div className="column col-3 col-xs-1"></div>
           </div>
         </div>
       </div>

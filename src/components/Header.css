@@ -10,12 +10,12 @@
     margin-right: 5%;
 }
 
-h3 object {
+h3 img {
     margin-left: 19px;
     transition: 0.5s;
 }
 
-h3:hover object {
+h3:hover img {
     transform: rotate(360deg);
 }
 
@@ -29,13 +29,18 @@ h3:hover object {
     transition: 0.1s;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 640px) {
     .menu-item {
-        font-size: 23px;
+        font-size: 15px;
         line-height: 11px;
+        margin-left: 5px;
+        margin-right: 5px;
     }
     .ultrabold {
         font-weight: normal;
+    }
+    h3 img {
+        margin-left: 10px;
     }
 }
 
