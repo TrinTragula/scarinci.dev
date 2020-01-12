@@ -4,7 +4,8 @@ import './Home.css';
 export default function Home() {
     return (
         <div className="page">
-            <img src="icons/meh.svg" alt="Meh logo" class="meh-logo" />
+            <img src="icons/meh.svg" alt="Meh logo" className="meh-logo" />
+            <h1>WHOAMI<span className="blinking-cursor">_</span></h1>
             <p>
                 I'm <b>Daniele Scarinci</b>, an italian software engineer with a degree in physics. I love learning, I love creating, but most of all I love telling computers how to learn and create.
             </p>
