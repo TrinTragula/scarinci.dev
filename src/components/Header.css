@@ -1,0 +1,44 @@
+.header {
+    text-align: center;
+    margin-top: 1%;
+    height: 52px;
+}
+
+.ultrabold {
+    font-weight: 800;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h3 object {
+    margin-left: 19px;
+    transition: 0.5s;
+}
+
+h3:hover object {
+    transform: rotate(360deg);
+}
+
+.menu-item {
+    font-size: 33px;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px;
+    color: #222629;
+    line-height: 33px;
+    cursor: pointer;
+    transition: 0.1s;
+}
+
+@media (max-width: 480px) {
+    .menu-item {
+        font-size: 23px;
+        line-height: 11px;
+    }
+    .ultrabold {
+        font-weight: normal;
+    }
+}
+
+.menu-item:hover {
+    border-bottom: 3px solid #86c232;
+}

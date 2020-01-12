@@ -1,0 +1,22 @@
+/*
+    Palette:
+    #61892F
+    #86C232
+    #222629
+    #474B4F
+    #6B6E70
+*/
+
+.inline {
+    display: inline-block;
+}
+
+b {
+    color: #61892F
+}
+
+.page {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin-top: 25px;
+}
