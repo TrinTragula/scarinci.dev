@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/scarinci.dev/static/css/main.ee0773cf.chunk.css",
-    "main.js": "/scarinci.dev/static/js/main.bcc389a4.chunk.js",
-    "main.js.map": "/scarinci.dev/static/js/main.bcc389a4.chunk.js.map",
+    "main.js": "/scarinci.dev/static/js/main.0d465d1b.chunk.js",
+    "main.js.map": "/scarinci.dev/static/js/main.0d465d1b.chunk.js.map",
     "runtime-main.js": "/scarinci.dev/static/js/runtime-main.afb99f58.js",
     "runtime-main.js.map": "/scarinci.dev/static/js/runtime-main.afb99f58.js.map",
     "static/js/2.cb2f5d70.chunk.js": "/scarinci.dev/static/js/2.cb2f5d70.chunk.js",
     "static/js/2.cb2f5d70.chunk.js.map": "/scarinci.dev/static/js/2.cb2f5d70.chunk.js.map",
     "index.html": "/scarinci.dev/index.html",
-    "precache-manifest.c31f945c108df32252e5e03bdb54e552.js": "/scarinci.dev/precache-manifest.c31f945c108df32252e5e03bdb54e552.js",
+    "precache-manifest.bdae03354f23fc2276d72e761666da32.js": "/scarinci.dev/precache-manifest.bdae03354f23fc2276d72e761666da32.js",
     "service-worker.js": "/scarinci.dev/service-worker.js",
     "static/css/main.ee0773cf.chunk.css.map": "/scarinci.dev/static/css/main.ee0773cf.chunk.css.map",
     "static/js/2.cb2f5d70.chunk.js.LICENSE": "/scarinci.dev/static/js/2.cb2f5d70.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.afb99f58.js",
     "static/js/2.cb2f5d70.chunk.js",
     "static/css/main.ee0773cf.chunk.css",
-    "static/js/main.bcc389a4.chunk.js"
+    "static/js/main.0d465d1b.chunk.js"
   ]
 }
