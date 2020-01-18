@@ -26,7 +26,7 @@ export default class App extends React.Component {
                 Mail
                 <img src="icons/mail-g.svg" alt="Mail logo" className="contacts_logo_right" />
               </dt>
-              <dd><a style={{ 'color': '#807fe2' }} href="mailto:scarinci.dan@gmail.com" alt="scarinci.dan@gmail.com">scarinci.dan@gmail.com</a></dd>
+              <dd><a style={{ 'color': '#807fe2' }} href="mailto:scarinci.dan@gmail.com" alt="scarinci.dan@gmail.com" target="_blank" rel="noopener noreferrer">scarinci.dan@gmail.com</a></dd>
               <dt>
                 <img src="icons/github.svg" alt="Mail logo" className="contacts_logo_left" />
                 GitHub
