@@ -16,11 +16,6 @@
     animation: blink 0.8s infinite;
 }
 
-.page h1 {
-    text-align: center;
-    color: '#6B6E70';
-}
-
 @keyframes blink {
     0% {
         color: transparent;
@@ -31,4 +26,14 @@
     100% {
         color: transparent;
     }
+}
+
+mark.day {
+    background: rgba(134, 194, 50, 0.18823529411764706);
+    border-bottom: .05rem solid #86C232;
+}
+
+mark.night {
+    background: #22262930;
+    border-bottom: .05rem solid #222629;
 }

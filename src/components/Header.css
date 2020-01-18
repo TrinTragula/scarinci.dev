@@ -10,12 +10,16 @@
     margin-right: 5%;
 }
 
-h3 img {
+.animated_logo {
+    cursor: pointer;
+}
+
+.animated_logo img {
     margin-left: 19px;
     transition: 0.5s;
 }
 
-h3:hover img {
+.animated_logo:hover img {
     transform: rotate(360deg);
 }
 
@@ -25,7 +29,6 @@ h3:hover img {
     margin: 10px;
     color: #222629;
     line-height: 33px;
-    cursor: pointer;
     transition: 0.1s;
 }
 
@@ -44,6 +47,10 @@ h3:hover img {
     }
 }
 
-.menu-item:hover {
+.animated_logo:hover .menu-item {
     border-bottom: 3px solid #86c232;
+}
+
+.menu-item.hover {
+    border-bottom: 3px solid #86c23263;
 }

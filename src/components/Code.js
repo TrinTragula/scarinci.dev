@@ -82,7 +82,7 @@ export default class Code extends React.Component {
                         <p className="tile-subtitle">{repo.description}</p>
                     </div>
                     <div className="tile-action">
-                        <button className="btn btn-primary" href={repo.url} target="_blank">Go to GitHub</button>
+                        <button className="btn btn-primary" href={repo.url} target="_blank" rel="noopener noreferrer">Go to GitHub</button>
                     </div>
                 </div>
             );

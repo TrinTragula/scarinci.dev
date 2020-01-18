@@ -11,6 +11,10 @@
     display: inline-block;
 }
 
+a, a:visited {
+    color: #474B4F;
+}
+
 b {
     color: #61892F
 }
@@ -20,6 +24,12 @@ b {
     text-align: justify;
     margin-top: 25px;
     animation: 0.5s linear 0s 1 opaticize;
+    margin-bottom: 5%;
+}
+
+.page h1 {
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 body {
@@ -34,4 +44,20 @@ body {
     100% {
         opacity: 100%;
     }
+}
+
+.btn.btn-primary:focus, .btn.btn-primary:hover {
+    background: #61892F;
+    border-color: #273713;
+    color: #fff;
+}
+
+.btn.btn-primary {
+    background: #474B4F;
+    border-color: #2e3135;
+    color: #fff;
+}
+
+.tile .tile-content:not(:last-child) {
+    padding-right: 7.4rem;
 }
