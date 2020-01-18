@@ -99,10 +99,11 @@ export default class Code extends React.Component {
     }
 
     render() {
-        return (<div className="page">
-            <h1><b>&lt;</b> CODE  <b>/&gt;</b></h1>
-            {this.renderCode()}
-        </div >
+        return (
+            <div className="page">
+                <h1><b>&lt;</b> CODE  <b>/&gt;</b></h1>
+                {this.renderCode()}
+            </div >
         );
     }
 }

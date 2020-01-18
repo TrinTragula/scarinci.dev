@@ -53,11 +53,11 @@ export default class App extends React.Component {
         <HorizontalLine />
         <div className="container">
           <div className="columns header">
-            <div className="column col-3 col-xs-1"></div>
-            <div className="column col-6 col-xs-10">
+            <div className="column col-3 col-lg-1"></div>
+            <div className="column col-6 col-lg-10">
               {this.renderPage()}
             </div>
-            <div className="column col-3 col-xs-1"></div>
+            <div className="column col-3 col-lg-1"></div>
           </div>
         </div>
       </div>
