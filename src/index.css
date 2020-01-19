@@ -59,5 +59,9 @@ body {
 }
 
 .tile .tile-content:not(:last-child) {
-    padding-right: 7.4rem;
+    padding-right: 0.9rem;
+}
+
+.sub_image {
+    vertical-align: sub;
 }

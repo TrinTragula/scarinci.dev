@@ -17,12 +17,6 @@
     border-top-color: transparent;
 }
 
-.tab {
-    position: sticky;
-    background: white;
-    top: 0px;
-}
-
 .tile {
     box-shadow: 0 4px 8px 0 #6B6E70;
     transition: .3s;
@@ -37,4 +31,39 @@
 
 .tile h4 {
     font-family: 'Roboto Mono', monospace;
+}
+
+.tab.tab-block .tab-item {
+    width: 100px;
+    min-width: 100px;
+    max-width: 100px;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+.github_link {
+    width: 100%;
+}
+
+.github_button {
+    float: right;
+    width: 25%;
+}
+
+.github_stats {
+    padding: 10px;
+}
+
+.github_stats_container {
+    display: inline-block;
+}
+
+@media (max-width: 845px) {
+    .github_button {
+        width: 100%;
+    }
+    .github_stats_container {
+        height: 24px;
+        display: block;
+    }
 }

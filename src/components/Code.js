@@ -80,9 +80,20 @@ export default class Code extends React.Component {
                     <div className="tile-content">
                         <h4 className="tile-title">{repo.name}</h4>
                         <p className="tile-subtitle">{repo.description}</p>
-                    </div>
-                    <div className="tile-action">
-                        <button className="btn btn-primary" href={repo.url} target="_blank" rel="noopener noreferrer">Go to GitHub</button>
+                        <div className="github_stats_container">
+                            <span className="github_stats">
+                                <img src="icons/star.svg" alt="star" className="sub_image" /> {repo.stars}
+                            </span>
+                            <span className="github_stats">
+                                <img src="icons/watch.svg" alt="star" className="sub_image" /> {repo.watches}
+                            </span>
+                            <span className="github_stats">
+                                <img src="icons/fork.svg" alt="star" className="sub_image" /> {repo.forks}
+                            </span>
+                        </div>
+                        <a href={repo.url} target="_blank" rel="noopener noreferrer" className="github_link">
+                            <button className="btn btn-primary github_button">GitHub</button>
+                        </a>
                     </div>
                 </div>
             );
