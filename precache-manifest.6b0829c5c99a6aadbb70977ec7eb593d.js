@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a25889008226f76e52da294194c20644",
+    "revision": "5a7d26c2d63e3a63801f989a5d50875a",
     "url": "/scarinci.dev/index.html"
   },
   {
-    "revision": "26da1a99091f9ce346c2",
-    "url": "/scarinci.dev/static/css/main.63514eac.chunk.css"
+    "revision": "04c21ecee3e17bf0fbb9",
+    "url": "/scarinci.dev/static/css/main.09923f52.chunk.css"
   },
   {
     "revision": "ae21ac6f8cce2e357352",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/scarinci.dev/static/js/2.cb2f5d70.chunk.js.LICENSE"
   },
   {
-    "revision": "26da1a99091f9ce346c2",
+    "revision": "04c21ecee3e17bf0fbb9",
     "url": "/scarinci.dev/static/js/main.cab029ca.chunk.js"
   },
   {
