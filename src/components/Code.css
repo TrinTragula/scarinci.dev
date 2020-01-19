@@ -63,7 +63,7 @@
         width: 100%;
     }
     .github_stats_container {
-        height: 24px;
         display: block;
+        height: 48px;
     }
 }
