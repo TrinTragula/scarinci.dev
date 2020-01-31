@@ -1,4 +1,4 @@
-.meh-logo {
+.meh_logo {
     width: 100px;
     margin-left: auto;
     margin-right: auto;
@@ -8,12 +8,20 @@
     transition-timing-function: linear;
 }
 
-.meh-logo:hover {
-    transform: rotate(-360deg);
+@media (max-width: 845px) {
+    .meh_logo {
+        width: 80px;
+    }
 }
 
-.blinking-cursor {
-    animation: blink 0.8s infinite;
+@media (max-width: 500px) {
+    .meh_logo {
+        width: 50px;
+    }
+}
+
+.meh_logo:hover {
+    transform: rotate(-360deg);
 }
 
 @keyframes blink {
@@ -36,4 +44,21 @@ mark.day {
 mark.night {
     background: #22262930;
     border-bottom: .05rem solid #222629;
+}
+
+.ciao_internet {
+    font-family: 'Roboto Mono', monospace;
+    color: #222629;
+}
+
+@media (max-width: 845px) {
+    .ciao_internet {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 500px) {
+    .ciao_internet {
+        font-size: 21px;
+    }
 }

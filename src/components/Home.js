@@ -1,7 +1,12 @@
 import React from 'react';
+import InternetIcons from './InternetIcons';
 import './Home.css';
 
 export default function Home() {
+    const icons = [
+        'facebook', 'twitter', 'youtube', 'google', 'wikipedia', 'reddit', 'instagram', 'linkedin', 'twitch', 'slack', 'trello', 'telegram', 'spotify', 'snapchat', 'vimeo', 'steam', 'stack-overflow', 'font-awesome', 'github', 'paypal', 'pinterest', 'soundcloud', 'apple', 'bitbucket', 'medium', 'tripadvisor', 'yahoo', 'adobe', 'amazon', 'whatsapp', 'yc'
+    ];
+
     const highlitedProjects = [
         { name: "Clumsy Pigeon", year: "2016", link: "https://github.com/TrinTragula/ClumsyPigeon", description: "An extremely simple chess engine written in Fortran" },
         { name: "Nuclear toi", year: "2018", link: "https://www.npmjs.com/package/nuclear-toi", description: "An npm package to query data from the Lund/LBNL Table of Isotopes" },
@@ -20,8 +25,11 @@ export default function Home() {
 
     return (
         <div className="page">
-            <img src="icons/meh.svg" alt="Meh logo" className="meh-logo" />
-            <h1>WHOAMI<span className="blinking-cursor">_</span></h1>
+            <h1 className="ciao_internet">
+                Ciao, Internet.
+                <InternetIcons icons={icons} />
+            </h1>
+            <img src="icons/meh.svg" alt="Meh logo" className="meh_logo" />
             <p>
                 I'm <b>Daniele Scarinci</b>, an italian software engineer with a degree in physics.
                 I love learning, I love creating, but most of all I love telling computers how to learn and create.

@@ -1,0 +1,19 @@
+.moving_icons {
+    color: #474B4F;
+    height: 40px;
+    width: 100px;
+}
+
+@media (max-width: 845px) {
+    .moving_icons {
+        height: 33px;
+        width: 80px;
+    }
+}
+
+@media (max-width: 500px) {
+    .moving_icons {
+        height: 21px;
+        width: 50px;
+    }
+}
