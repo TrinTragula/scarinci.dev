@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/scarinci.dev/static/css/main.4344eac2.chunk.css",
-    "main.js": "/scarinci.dev/static/js/main.59dd896d.chunk.js",
-    "main.js.map": "/scarinci.dev/static/js/main.59dd896d.chunk.js.map",
+    "main.css": "/scarinci.dev/static/css/main.e690ca7c.chunk.css",
+    "main.js": "/scarinci.dev/static/js/main.7bc3e0b1.chunk.js",
+    "main.js.map": "/scarinci.dev/static/js/main.7bc3e0b1.chunk.js.map",
     "runtime-main.js": "/scarinci.dev/static/js/runtime-main.afb99f58.js",
     "runtime-main.js.map": "/scarinci.dev/static/js/runtime-main.afb99f58.js.map",
     "static/js/2.2d17266a.chunk.js": "/scarinci.dev/static/js/2.2d17266a.chunk.js",
     "static/js/2.2d17266a.chunk.js.map": "/scarinci.dev/static/js/2.2d17266a.chunk.js.map",
     "index.html": "/scarinci.dev/index.html",
-    "precache-manifest.d83f2e593ccc731631e108f581f5f1ce.js": "/scarinci.dev/precache-manifest.d83f2e593ccc731631e108f581f5f1ce.js",
+    "precache-manifest.55b8728e28082f6b08926791d33d65ed.js": "/scarinci.dev/precache-manifest.55b8728e28082f6b08926791d33d65ed.js",
     "service-worker.js": "/scarinci.dev/service-worker.js",
-    "static/css/main.4344eac2.chunk.css.map": "/scarinci.dev/static/css/main.4344eac2.chunk.css.map",
+    "static/css/main.e690ca7c.chunk.css.map": "/scarinci.dev/static/css/main.e690ca7c.chunk.css.map",
     "static/js/2.2d17266a.chunk.js.LICENSE": "/scarinci.dev/static/js/2.2d17266a.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.afb99f58.js",
     "static/js/2.2d17266a.chunk.js",
-    "static/css/main.4344eac2.chunk.css",
-    "static/js/main.59dd896d.chunk.js"
+    "static/css/main.e690ca7c.chunk.css",
+    "static/js/main.7bc3e0b1.chunk.js"
   ]
 }
