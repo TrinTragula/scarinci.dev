@@ -1,7 +1,6 @@
 .header {
     text-align: center;
     margin-top: 20px;
-    height: 52px;
 }
 
 .ultrabold {
@@ -16,11 +15,11 @@
 
 .animated_logo img {
     margin-left: 19px;
-    transition: 0.5s;
 }
 
 .animated_logo:hover img {
     transform: rotate(360deg);
+    transition: 0.5s;
 }
 
 .menu-item {
@@ -54,9 +53,6 @@
         margin-left: 3%;
         margin-right: 3%;
     }
-    .header {
-        height: 19px;
-    }
     .menu-item {
         font-size: 20px;
         line-height: 20px;
@@ -69,9 +65,6 @@
 }
 
 @media (max-width: 500px) {
-    .header {
-        height: 19px;
-    }
     .menu-item {
         font-size: 12px;
         line-height: 12px;

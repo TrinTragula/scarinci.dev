@@ -1,5 +1,17 @@
 .horizontal-line {
     border: 1px solid #222629;
     background: #222629;
-    margin-top: 25px;
+    margin-top: 21px;
+}
+
+@media (max-width: 845px) {
+    .horizontal-line {
+        margin-top: 2px;
+    }
+}
+
+@media (max-width: 500px) {
+    .horizontal-line {
+        margin-top: 10px;
+    }
 }
