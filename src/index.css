@@ -35,6 +35,7 @@ b {
 body {
     animation: 0.5s linear 0s 1 opaticize;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 1rem;
 }
 
 @keyframes opaticize {
