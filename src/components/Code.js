@@ -112,7 +112,7 @@ export default class Code extends React.Component {
     render() {
         return (
             <div className="page">
-                <h1><b>&lt;</b> CODE  <b>/&gt;</b></h1>
+                <h1 className="code-header"><b>&lt;</b> My code on Github <b>/&gt;</b></h1>
                 {this.renderCode()}
             </div >
         );

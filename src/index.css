@@ -11,7 +11,7 @@
     display: inline-block;
 }
 
-a, a:visited {
+a, a:visited, a:active, a:focus {
     color: #474B4F;
 }
 
@@ -23,7 +23,7 @@ b {
     font-family: 'Roboto', sans-serif;
     text-align: justify;
     margin-top: 25px;
-    animation: 0.5s linear 0s 1 opaticize;
+    animation: 0.1s linear 0s 1 opaticize;
     margin-bottom: 5%;
 }
 

@@ -4,7 +4,7 @@
     margin-right: auto;
     display: block;
     margin-bottom: 50px;
-    transition: 7s;
+    transition: transform 7s;
     transition-timing-function: linear;
 }
 
@@ -51,9 +51,19 @@ mark.night {
     color: #222629;
 }
 
+h3.info {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #474B4F;
+    text-align: left;
+}
+
 @media (max-width: 845px) {
     .ciao_internet {
         font-size: 33px;
+    }
+    h3.info {
+        font-size: 1.4rem;
     }
 }
 
@@ -61,4 +71,28 @@ mark.night {
     .ciao_internet {
         font-size: 21px;
     }
+    h3.info {
+        font-size: 21px;
+    }
+}
+
+.left-padded {
+    padding-left: 5%;
+}
+
+@media (max-width: 845px) {
+    .left-padded {
+        padding-left: 0;
+    }
+}
+
+dt.project-info {
+    width: fit-content;
+    background: rgba(134, 194, 50, 0.18823529411764706);
+    border-bottom: .05rem solid #86C232;
+}
+
+dd.project-info {
+    font-size: small;
+    text-align: justify;
 }

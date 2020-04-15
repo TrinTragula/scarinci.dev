@@ -66,4 +66,13 @@
         display: block;
         height: 48px;
     }
+    h1.code-header {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 500px) {
+    h1.code-header {
+        font-size: 21px;
+    }
 }

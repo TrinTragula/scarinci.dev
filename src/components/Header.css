@@ -59,9 +59,12 @@
     }
     .menu-item {
         font-size: 20px;
-        line-height: 11px;
+        line-height: 20px;
         margin-left: 0px;
         margin-right: 0px;
+    }
+    .menu-item.hover {
+        border-bottom: 2px solid #86c23263;
     }
 }
 
@@ -71,8 +74,11 @@
     }
     .menu-item {
         font-size: 12px;
-        line-height: 11px;
+        line-height: 12px;
         margin-left: 0px;
         margin-right: 0px;
+    }
+    .menu-item.hover {
+        border-bottom: 2px solid #86c23263;
     }
 }
