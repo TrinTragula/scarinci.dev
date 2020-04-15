@@ -1,3 +1,9 @@
-# Repository di scarinci.dev
+# scarinci.dev
 
-Per ora è solo un test non live
+Repository contenente il codice del mio sito web personale, [scarinci.dev](https://scarinci.dev)
+
+Il sito è sviluppato usando React e [SPECTRE.CSS](https://picturepan2.github.io/spectre/)
+
+## Un pinguino per rendere questo README meno vuoto
+
+![Pinguino](/public/pinguino.png)
