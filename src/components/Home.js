@@ -62,7 +62,7 @@ export default function Home() {
                 Open source
             </h3>
             <p>
-                Some of my open source projects that I enojyed the most coding (look at the <b>Code</b> section for even more stuff):
+                Some of my open source projects that I enjoyed the most coding (look at the <b>Code</b> section for even more stuff):
             </p>
             <dl className="left-padded">
                 {renderHighlights()}
