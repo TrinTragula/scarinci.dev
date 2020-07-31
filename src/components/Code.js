@@ -34,22 +34,24 @@ export default class Code extends React.Component {
     getRepos = (json) => {
         var groupedByLanguage = json.reduce(function (repoDict, repo) {
             if (!repo) return repoDict;
-            if (repo.language === "Jupyter Notebook") repo.language = "Jupyter";
-            if (repo.language.length > 15) repo.language = repo.language.substring(0, 12) + "...";
-            if (!repo.fork) {
-                if (!repoDict[repo.language]) repoDict[repo.language] = [];
-                repoDict[repo.language].push({
-                    id: repo.id,
-                    name: repo.name,
-                    url: repo.html_url,
-                    description: repo.description,
-                    created: repo.created_at,
-                    pushed: repo.pushed_at,
-                    stars: repo.stargazers_count,
-                    watches: repo.watchers_count,
-                    license: repo.license ? repo.license.spdx_id : null,
-                    forks: repo.forks_count
-                });
+            if (repo.language) {
+                if (repo.language === "Jupyter Notebook") repo.language = "Jupyter";
+                if (repo.language.length > 15) repo.language = repo.language.substring(0, 12) + "...";
+                if (!repo.fork) {
+                    if (!repoDict[repo.language]) repoDict[repo.language] = [];
+                    repoDict[repo.language].push({
+                        id: repo.id,
+                        name: repo.name,
+                        url: repo.html_url,
+                        description: repo.description,
+                        created: repo.created_at,
+                        pushed: repo.pushed_at,
+                        stars: repo.stargazers_count,
+                        watches: repo.watchers_count,
+                        license: repo.license ? repo.license.spdx_id : null,
+                        forks: repo.forks_count
+                    });
+                }
             }
             return repoDict;
         }, {});
