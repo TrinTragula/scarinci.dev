@@ -57,9 +57,6 @@ export default function Home() {
                 </dt>
                 <dd className="project-info">
                     An android app written in Kotlin that lets you analyze your WhatsApp chats and provides you with fun stats and cool graphs.
-                </dd>
-                <dd className="project-info">
-                    An android app written in Kotlin that lets you analyze your WhatsApp chats and provides you with fun stats and cool graphs.
                     <br />
                     <small><a href="https://taimienphi.vn/download-chat-analyzer-for-whatsapp-91935" target="_blank" title="download">Awarded 5 Stars at Taimienphi</a></small>
                 </dd>
