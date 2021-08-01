@@ -12,7 +12,7 @@ export default function Home() {
         { name: "Nuclear toi", year: "2018", link: "https://www.npmjs.com/package/nuclear-toi", description: "An npm package to query data from the Lund/LBNL Table of Isotopes" },
         { name: "MEAN", year: "2018", link: "https://github.com/TrinTragula/MEAN", description: "An Electron App for Nuclear Physics" },
         { name: "Api Trenitalia", year: "2018-2020", link: "https://www.npmjs.com/package/api-trenitalia", description: "An npm package to grab info from Trenitalia APIs" },
-        { name: "Cronache Maceratesi (unofficial)", year: "2020", link: "https://www.amazon.it/TrinTragula-Cronache-Maceratesi-unofficial/dp/B08BWQ32NY", description: "Una skill Alexa per leggere le ultime notizie presenti sul sito Cronache Maceratesi" },
+        { name: "Cronache Maceratesi (unofficial)", year: "2020", link: "https://www.amazon.it/TrinTragula-Cronache-Maceratesi-unofficial/dp/B08BWQ32NY", description: "(Only in italian) Una skill Alexa per leggere le ultime notizie presenti sul sito Cronache Maceratesi" },
     ];
 
     const renderHighlights = () => highlitedProjects.map(x => {
@@ -37,17 +37,17 @@ export default function Home() {
                 I graduated in 2018 with a master degree in Physics and since then I've been working a software engineer.
             </p>
             <p>
-                <mark className="day">By day</mark>, I'm a full stack developer working with .NET, Javascript, NodeJS, HTML, CSS, MongoDB and data analysis in Python.
+                <mark className="day">By day</mark>, I'm a full stack developer using .NET and Typescript to work with event sourcing, Angular and cross-platform mobile developent.
             </p>
             <p>
                 <mark className="night">By night</mark>, I try to use machine learning to teach my laptop how to play tetris, program chess engines in Fortran, study Network Security, dive deep into Linux magic and make Android apps to have fun with statistics.
             </p>
             <div className="divider"></div>
             <h3 className="info">
-                Projects
+                Main projects
             </h3>
             <p>
-                I currently mantain these projects, whose code it's still not open source but will probably be sooner or later.
+                I currently mantain these projects, some of the code isn't open source yet but it will probably be sooner or later.
             </p>
             <dl className="left-padded">
                 <dt className="project-info">
@@ -57,8 +57,6 @@ export default function Home() {
                 </dt>
                 <dd className="project-info">
                     An android app written in Kotlin that lets you analyze your WhatsApp chats and provides you with fun stats and cool graphs.
-                    <br />
-                    <small><a href="https://taimienphi.vn/download-chat-analyzer-for-whatsapp-91935" target="_blank" title="download">Awarded 5 Stars at Taimienphi</a></small>
                 </dd>
             </dl>
             <dl className="left-padded">
@@ -71,12 +69,27 @@ export default function Home() {
                     A website to analyze your Whatsapp chats and create wonderful graphs and informations out of it. With the privacy of the user in mind.
                 </dd>
             </dl>
+            <dl className="left-padded">
+                <dt className="project-info">
+                    <a href="https://www.mcseeder.com/" alt="Seeder" target="_blank" rel="noopener noreferrer">
+                        Seeder (WASM, React)
+                    </a>
+                </dt>
+                <dd className="project-info">
+                    A webapp to find, show and share Minecraft Java edition seeds.
+                    <small className="ml-2">
+                        <a href="https://github.com/TrinTragula/seeder" alt="Seeder code on Github" target="_blank" rel="noopener noreferrer">
+                            link to the code
+                        </a>
+                    </small>
+                </dd>
+            </dl>
             <div className="divider"></div>
             <h3 className="info">
-                Open source
+                Other projects
             </h3>
             <p>
-                Some of my open source projects that I enjoyed the most coding (look at the <b>Code</b> section for a complete list):
+                Some of my open source projects that I enjoyed the most coding. Take a look at the <b>Code</b> section for a complete list of all of my open source stuff.
             </p>
             <dl className="left-padded">
                 {renderHighlights()}

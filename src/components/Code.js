@@ -62,9 +62,9 @@ export default class Code extends React.Component {
         if (this.state.tabs && Object.keys(this.state.tabs).length > 0) {
             return (
                 <React.Fragment>
-                    <ul className="tab tab-block">
+                    <div className="tab tab-block">
                         {this.renderTabs()}
-                    </ul>
+                    </div>
                     <div>
                         {this.renderRepos()}
                     </div>
@@ -105,9 +105,9 @@ export default class Code extends React.Component {
 
     renderTabs = () => {
         return Object.keys(this.state.tabs).sort().map((language) => {
-            return (<li className={this.state.activeTab === language ? "active tab-item" : "tab-item"} key={language}>
+            return (<div className={this.state.activeTab === language ? "active tab-item" : "tab-item"} key={language}>
                 <a href="#" onClick={() => this.setState({ activeTab: language })}>{language}</a>
-            </li>);
+            </div>);
         });
     }
 
