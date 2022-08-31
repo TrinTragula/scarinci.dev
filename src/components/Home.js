@@ -61,12 +61,12 @@ export default function Home() {
             </dl>
             <dl className="left-padded">
                 <dt className="project-info">
-                    <a href="https://whatsapp-web.scarinci.dev/" alt="Whatsapp analyzer" target="_blank" rel="noopener noreferrer">
-                        Whatsapp analyzer (React)
+                    <a href="https://github.com/TrinTragula/rusty-pigeon" alt="Rusty Pigeon" target="_blank" rel="noopener noreferrer">
+                        Rusty Pigeon (Rust, WASM)
                     </a>
                 </dt>
                 <dd className="project-info">
-                    A website to analyze your Whatsapp chats and create wonderful graphs and informations out of it. With the privacy of the user in mind.
+                    UCI chess engine written in Rust. You can also play against it in a <a href="https://rusty-pigeon.netlify.app/" alt="Rusty Pigeon WASM version" target="_blank" rel="noopener noreferrer">web browser</a>.
                 </dd>
             </dl>
             <dl className="left-padded">
